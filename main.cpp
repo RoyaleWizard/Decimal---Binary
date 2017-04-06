@@ -24,7 +24,7 @@ int main()
     int x;
     std::cout<<"Enter a number between 0 and 255: ";
     std::cin>>x;
-    int powerOf2[8]= {128,64,32,16,8,4,2,1};
+    int powerOf2[]= {128,64,32,16,8,4,2,1};
 
     printandDecrementBit(x,powerOf2,0);
     
